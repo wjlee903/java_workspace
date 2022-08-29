@@ -1,0 +1,26 @@
+
+public class Ex_Test_Swap {
+
+	public static void main(String[] args) {
+		
+	String a = "°¡";	
+	String b = "³ª";	
+	
+	public String swap (String a, String b) { 
+		String a_ = a;
+		String b_ = b;
+		
+		a = b_;
+		b = a_;
+
+		return a+b;
+		
+	}
+	
+	
+		
+			
+
+	}
+
+}

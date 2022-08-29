@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		while(true) {
+			System.out.println("이름 국어 영어 수학 점수를 입력하세요. (exit 룰 입력하면 종료됩니다.)");
+			
+			String[] intArray = new String[4];
+			
+//			String name = intArray[0];
+			double sum = 0;
+			double k;
+			double ave;
+			
+			String text = scanner.nextLine();
+			if(text.equals("exit")) 
+				break;
+				
+				for(int i=1; i<intArray.length; i++) {
+					String name = intArray[0];
+					intArray[i] = scanner.next();
+					k = Double.parseDouble(intArray[i]);
+					sum += k;					
+				}
+				ave = (double)sum / (intArray.length -1);
+				System.out.println(name + " 님의 평균은" + ave + "입니다.");
+		}
+
+		System.out.println("종료되었습니다.");
+		
+		scanner.close();
+
+	} 
+
+}

@@ -1,0 +1,6 @@
+1645256599514	Extract method 'extracted'
+1645256633449	Rename method 'extracted'
+1645256714415	Rename local variable 'array'
+1645256952110	Rename local variable 'i'
+1645257341866	Extract constant '_10'
+1645257407821	Rename field 'random_max'

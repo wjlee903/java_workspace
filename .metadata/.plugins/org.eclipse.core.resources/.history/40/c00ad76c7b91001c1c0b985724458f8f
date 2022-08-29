@@ -1,0 +1,27 @@
+class Alone2 {
+	public static void sum(int left, int right) {
+		System.out.println(left+right);
+	}
+	
+	public void avg(int left, int right) {
+		System.out.println((left+right)/2);
+	}
+}
+
+
+public class Alone {
+
+	public static void main(String[] args) {
+
+		
+		Alone2.sum(10, 20);
+		
+//				String[] members = {"ab","cd","ef"};
+//				
+//				for (String e : members) {
+//					System.out.println(e + "¿‘¥œ¥Ÿ.");
+//				}
+			}
+		
+	}	
+

@@ -1,0 +1,22 @@
+
+public class Ex_Test_Swap {
+
+	public static void main(String[] args) {
+		
+		int a= 10;
+		int b = 20;
+		
+		
+		 String swap(int first, int second) {
+			int first_ = first;
+			int second_ = second;
+			
+			first = second_;
+			second = first_;
+			return "skdj";
+			
+		}
+
+	}
+
+}

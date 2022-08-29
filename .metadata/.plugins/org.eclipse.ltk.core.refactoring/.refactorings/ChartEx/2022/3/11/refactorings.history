@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;images&apos;&#x0D;&#x0A;- Original project: &apos;ChartEx&apos;&#x0D;&#x0A;- Destination element: &apos;images&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     search.png&#x0D;&#x0A;     search.jpg" description="Copy files" element1="images/search.png" element2="images/search.jpg" files="2" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1647008796658" target="/Test/images" units="0" version="1.0"/>
+</session>

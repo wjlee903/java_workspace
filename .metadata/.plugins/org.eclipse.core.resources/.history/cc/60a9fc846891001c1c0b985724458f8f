@@ -1,0 +1,14 @@
+
+public class Alone {
+
+	public static void main(String[] args) {
+
+				String[] members = {"ab","cd","ef"};
+				
+				for (String e : members) {
+					System.out.println(e + "¿‘¥œ¥Ÿ.");
+				}
+			}
+		
+	}	
+
